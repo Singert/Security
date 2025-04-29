@@ -1,5 +1,5 @@
 (function() {
-    fetch('https://target.com/hidden-content')
+    fetch('https://raw.githubusercontent.com/Singert/Security/refs/heads/main/data.txt')
         .then(response => response.text())
         .then(data => {
             console.log('偷偷拿到的数据:', data);
